@@ -89,11 +89,11 @@ See `LICENSE` file for more details.
 
 ## Live Demo
 
-[🔗 Visit MediSpecialist AI](#) *(Replace with your deployed URL)*
+[Visit MediSpecialist AI](https://medica-eta.vercel.app/) *(Replace with your deployed URL)*
 
 ---
 
-## 🙋‍♂Disclaimer
+## Disclaimer
 
 MediSpecialist AI is intended **only for educational and awareness purposes**. It does **not** replace professional consultation, diagnosis, or treatment. Always consult with a licensed medical practitioner.
 

@@ -1,73 +1,100 @@
-# Welcome to your Lovable project
+# MediSpecialist AI ( Healthtalk )
 
-## Project info
+**AI-Powered Healthcare Assistant**  
+Advanced Medical Analysis for **Lung Cancer**, **Thyroid Disease**, and **Heart Disease**
 
-**URL**: https://lovable.dev/projects/220d9351-0280-473c-a07e-95d26c66cfc7
+---
 
-## How can I edit this code?
+## Overview
 
-There are several ways of editing your application.
+**MediSpecialist AI** is a cutting-edge web-based application designed to assist patients and healthcare providers with **AI-powered analysis, symptom checking**, and **personalized treatment planning**. Built for educational and support purposes, the platform analyzes user-reported symptoms and vital signs to provide insight into possible health conditions, including:
 
-**Use Lovable**
+- **Lung Cancer**
+- **Thyroid Disorders**
+- **Cardiovascular Diseases**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/220d9351-0280-473c-a07e-95d26c66cfc7) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## Key Features
 
-**Use your preferred IDE**
+### Symptom Checker
+- Interactive interface to select symptoms by category: **Respiratory**, **Cardiovascular**, **Thyroid/Endocrine**, and **Neurological**
+- AI-driven pattern recognition to suggest probable conditions
+- Real-time natural language input processing
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Health Risk Assessment
+- Calculates risk based on:
+  - Age
+  - Smoking status
+  - Medical and family history
+  - Diabetes
+  - Vital signs (BP, cholesterol, etc.)
+- Provides a **risk profile** for lung, heart, and thyroid conditions
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Treatment Planner
+- Timeline-based care strategy (non-diagnostic)
+- Suggestions for medical follow-ups and specialist coordination
+- Customizable planning based on user condition & risk
 
-Follow these steps:
+### Natural Language Assistant
+- Responds to:
+  - Symptom inquiries
+  - Medication-related questions
+  - Condition-specific guidance
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+> ⚠**Disclaimer**: This platform is for educational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Tech Stack
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+| Technology         | Description                      |
+|--------------------|----------------------------------|
+| **Frontend**        | HTML, CSS, JavaScript, Tailwind (or Bootstrap) |
+| **Backend**         | Node.js, Supabase, Datasets |
+| **AI Integration**  | Gemini API(for NLU & prediction logic) |
+| **Deployment**      | Vercel|
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Folder Structure 
 
-**Use GitHub Codespaces**
+medispecialist-ai/
+│
+├── index.html # Landing & symptom checker page
+├── risk.html # Health Risk Assessment form
+├── planner.html # Treatment planner UI
+├── styles/ # CSS files or Tailwind setup
+├── scripts/ # JavaScript functionality
+├── assets/ # Icons, illustrations
+└── README.md
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## Contributions
 
-This project is built with:
+This project was developed and designed by **Rishi Rohan Kalapala**.  
+Special thanks to contributors and medical domain consultants for feedback and testing.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Want to contribute? Open a pull request or submit an issue!
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/220d9351-0280-473c-a07e-95d26c66cfc7) and click on Share -> Publish.
+## License
 
-## Can I connect a custom domain to my Lovable project?
+This project is released under the **MIT License**.  
+See `LICENSE` file for more details.
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Live Demo
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+[🔗 Visit MediSpecialist AI](#) *(Replace with your deployed URL)*
+
+---
+
+## 🙋‍♂Disclaimer
+
+MediSpecialist AI is intended **only for educational and awareness purposes**. It does **not** replace professional consultation, diagnosis, or treatment. Always consult with a licensed medical practitioner.
+
+---

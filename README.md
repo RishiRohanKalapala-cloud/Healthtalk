@@ -89,7 +89,7 @@ See `LICENSE` file for more details.
 
 ## Live Demo
 
-[Visit MediSpecialist AI](https://medica-eta.vercel.app/) *(Replace with your deployed URL)*
+[Visit MediSpecialist AI](https://medica-eta.vercel.app/) 
 
 ---
 
